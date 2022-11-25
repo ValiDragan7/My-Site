@@ -2,11 +2,16 @@ body {
   margin: 0;
   text-align: center;
   font-family: "Montserrat", sans-serif;
+  font-size: 150%;
 }
 h1 {
-  margin: 0;
-  font-size: 70px;
+  margin: 0px;
+  font-size: 5.625rem;
   font-family: "Caveat", cursive;
+  margin-top: 50px;
+}
+h2 {
+  font-size: 2.5rem;
 }
 .future {
   text-decoration: underline;
