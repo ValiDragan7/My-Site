@@ -5,22 +5,11 @@ body {
 }
 h1 {
   margin: 0;
+  font-size: 70px;
   font-family: "Caveat", cursive;
 }
-.prezentare {
-  background-color: #f2deba;
-  position: relative;
-  padding-top: 100px;
-}
-.middle {
-  height: 200px;
-  width: 200px;
-  background-color: rgb(102, 64, 15);
-}
-.bottom {
-  height: 200px;
-  width: 200px;
-  background-color: blueviolet;
+.future {
+  text-decoration: underline;
 }
 .top-cloud {
   position: absolute;
@@ -31,4 +20,13 @@ h1 {
   position: absolute;
   left: 300px;
   bottom: 300px;
+}
+.prezentare {
+  background-color: #f2deba;
+  position: relative;
+  padding-top: 100px;
+}
+.mid-img {
+  height: 250px;
+  width: 250px;
 }
