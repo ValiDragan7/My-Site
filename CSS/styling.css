@@ -4,14 +4,27 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 150%;
 }
+hr {
+  border-style: dotted none none;
+  border-width: 5px;
+  height: 0;
+  width: 5%;
+  color: #3a8891;
+}
 h1 {
   margin: 0px;
   font-size: 5.625rem;
   font-family: "Caveat", cursive;
+  color: #0e5e6f;
   margin-top: 50px;
 }
 h2 {
   font-size: 2.5rem;
+  font-weight: normal;
+  color: #0e5e6f;
+}
+h3 {
+  color: #3a8891;
 }
 .future {
   text-decoration: underline;
@@ -30,8 +43,65 @@ h2 {
   background-color: #f2deba;
   position: relative;
   padding-top: 100px;
+  margin-bottom: 30px;
 }
-.mid-img {
-  height: 250px;
-  width: 250px;
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.profile-img {
+  width: 25%;
+}
+.pc-img {
+  width: 25%;
+  margin-right: 30px;
+  float: left;
+}
+.hum-img {
+  width: 25%;
+  margin-left: 30px;
+  float: right;
+}
+.btn {
+  background: #3a8891;
+  background-image: -webkit-linear-gradient(top, #3a8891, #3a8891);
+  background-image: -moz-linear-gradient(top, #3a8891, #3a8891);
+  background-image: -ms-linear-gradient(top, #3a8891, #3a8891);
+  background-image: -o-linear-gradient(top, #3a8891, #3a8891);
+  background-image: linear-gradient(to bottom, #3a8891, #3a8891);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #f2deba;
+  font-size: 21px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #0e5e6f;
+  background-image: -webkit-linear-gradient(top, #0e5e6f, #0e5e6f);
+  background-image: -moz-linear-gradient(top, #0e5e6f, #0e5e6f);
+  background-image: -ms-linear-gradient(top, #0e5e6f, #0e5e6f);
+  background-image: -o-linear-gradient(top, #0e5e6f, #0e5e6f);
+  background-image: linear-gradient(to bottom, #0e5e6f, #0e5e6f);
+  text-decoration: none;
+}
+
+.bottom-container {
+  color: #3a8891;
+  padding: 70px;
+  margin-top: 80px;
+  position: relative;
+  background-color: #f2deba;
+  word-spacing: 30px;
+}
+.credentials {
+  word-spacing: normal;
+}
+.footer-link:link {
+  color: #3a8891;
 }
