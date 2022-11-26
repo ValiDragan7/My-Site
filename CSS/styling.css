@@ -5,6 +5,8 @@ body {
   font-size: 150%;
 }
 hr {
+  margin-top: 100px;
+  margin-bottom: 100px;
   border-style: dotted none none;
   border-width: 5px;
   height: 0;
@@ -43,7 +45,7 @@ h3 {
   background-color: #f2deba;
   position: relative;
   padding-top: 100px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 .skill-row {
   width: 50%;
@@ -97,7 +99,7 @@ h3 {
   margin-top: 80px;
   position: relative;
   background-color: #f2deba;
-  word-spacing: 30px;
+  word-spacing: 50px;
 }
 .credentials {
   word-spacing: normal;
