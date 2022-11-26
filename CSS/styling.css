@@ -76,7 +76,7 @@ h3 {
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
   border-radius: 28px;
-  font-family: Arial;
+  font-family: "Montserrat", sans-serif;
   color: #f2deba;
   font-size: 21px;
   padding: 10px 20px 10px 20px;
@@ -94,9 +94,10 @@ h3 {
 }
 
 .bottom-container {
-  color: #3a8891;
-  padding: 70px;
-  margin-top: 80px;
+  color: white;
+  padding: 15px;
+  padding-top: 30px;
+  margin-top: 70px;
   position: relative;
   background-color: #f2deba;
   word-spacing: 50px;
@@ -105,5 +106,9 @@ h3 {
   word-spacing: normal;
 }
 .footer-link:link {
+  font-family: "Montserrat", sans-serif;
   color: #3a8891;
+}
+.footer-link:visited {
+  color: #0e5e6f;
 }
